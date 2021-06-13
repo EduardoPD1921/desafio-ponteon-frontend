@@ -11,7 +11,7 @@ const FormInputSection = props => {
     return (
         <React.Fragment>
             <RowSection>
-                <SectionTitle>Nome</SectionTitle>
+                <SectionTitle>Nome completo</SectionTitle>
                 <RedAsterisk>*</RedAsterisk>
             </RowSection>
             <RegisterInput 
