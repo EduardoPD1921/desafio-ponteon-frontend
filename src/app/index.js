@@ -128,7 +128,7 @@ const App = props => {
             {renderErrors()}
             <Bootbox
                 type="confirm"
-                message="Tem certeza que deseja excluir esse cadastro?"
+                message="Tem certeza que deseja excluir o registro?"
                 show={showConfirmation}
                 onSuccess={() => deleteEmpresario()}
                 onCancel={() => setShowConfirmation(false)}
